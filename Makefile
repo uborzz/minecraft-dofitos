@@ -1,5 +1,5 @@
 setup:
-	docker-compose stop; docker-compose rm -f; rm -rf minecraft-data; docker-compose build;
+	docker-compose stop; docker-compose rm -f; docker-compose build;
 
 run:
 	docker-compose up -d
