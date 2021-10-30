@@ -1,5 +1,5 @@
 setup:
-	docker-compose stop; docker-compose rm -f; docker-compose build;
+	docker-compose stop; docker-compose rm -f; docker-compose build; sudo chmod +x scripts/*;
 
 run:
 	docker-compose up -d
