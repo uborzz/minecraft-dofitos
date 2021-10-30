@@ -1,14 +1,19 @@
 # download
+```
+git clone https://github.com/uborzz/minecraft-dofitos.git
+cd minecraft-dofitos
+```
 
 # setup server
-1. configure the server base properties file
-2. make setup
+configure the server base properties file, then...
+
+```make setup```
 
 # run
-make run
+```make run```
 
 # stop
-make stop
+```make stop```
 
 # activate backups
-make cron
+```make cron```
