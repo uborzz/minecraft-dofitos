@@ -7,4 +7,10 @@ services:
       - "25575:25575"
     volumes:
       - ./minecraft-data:/data
+    environment:
+      MEMORY: 6G
+    deploy:
+      resources:
+        limits:
+          memory: 7000m
     restart: always
